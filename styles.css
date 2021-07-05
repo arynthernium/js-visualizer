@@ -1,0 +1,64 @@
+p {
+	display: block;
+}
+
+#display {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-content: stretch;
+	align-items: stretch;
+}
+
+.object {
+	border-radius: 10px;
+	background: #fbb6d2;
+	margin: 10px;
+	padding: 10px;
+}
+
+.array {
+	border-radius: 10px;
+	background: #a3d5e6;
+	margin: 10px;
+	padding: 10px;
+}
+
+.pairkey, .pairvalue {
+	display: inline-block;
+	margin: 10px;
+}
+
+.pairkey {
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+
+.pair {
+	border-radius: 10px;
+	background: #cefbb6;
+	display: block;
+	margin: 10px;
+}
+
+.string, .number {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.string {
+	background: #fbb6b6;
+}
+
+.number {
+	background: #fbd4b6;
+}
+
+.boolean {
+	border-radius: 10px;
+	background: #c2b6fb;
+	padding: 10px;
+	margin: 10px;
+}
