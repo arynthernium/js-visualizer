@@ -50,3 +50,8 @@ function display(object, value) {
 		}
 	};
 };
+
+function inputJSON() {
+	document.getElementById('display').innerHTML = display(JSON.parse(document.getElementById('input').value));
+	document.getElementById('inputdiv').remove();
+};
